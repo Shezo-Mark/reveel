@@ -10373,7 +10373,8 @@ body {
 .home_header .user_info {
   text-align: right;
 }
-.home_header .logo {
+
+.header_logo {
   width: 192px;
   display: inline-block;
 }
