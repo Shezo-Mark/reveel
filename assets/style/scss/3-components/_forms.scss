@@ -1,0 +1,97 @@
+/*--------------*\
+    Form Section
+\*--------------*/
+.user_from{
+    form{
+        >  input{
+            background-color: #242323;
+            border-radius: 8px;
+            font-size: 14px;
+            color: $white;
+            margin-bottom: 16px;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-family: $inter-font-family;
+            &:focus{
+                outline: none;
+                box-shadow: none;
+            }
+            &::placeholder{
+                color: $white;
+            }
+        }
+        > a {
+             font-size: 12px;
+             font-weight: 400;
+             font-family: $inter-font-family;
+             text-decoration: underline;
+             display: block;
+             margin-bottom: 16px;
+             text-align: center;
+             color: $white;
+             &:last-of-type{
+                font-family: $inter-font-family;
+                background-color:$scab-red;
+                border: 1px solid $scab-red;
+                border-radius: 14px;
+                font-weight: 500;
+                font-size: 18px;
+                padding: 14px 0;
+                margin-top: 16px;
+                text-decoration: none;
+                &:hover{
+                  background-color: transparent;
+                  border: 1px solid $scab-red;
+                  color: $scab-red;
+                }
+             }
+        }
+        span{
+            text-align: center;
+            display: block;
+        }
+        > div {
+            a{
+                font-family: $inter-font-family;
+                background-color:$deep-sky-blue;
+                border: 1px solid $deep-sky-blue;
+                color: $white;
+                border-radius: 14px;
+                font-weight: 500;
+                font-size: 18px;
+                padding: 14px 0;
+                margin-top: 16px;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                i{
+                    font-size: 22px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+                &:hover{
+                  background-color: transparent;
+                  border: 1px solid $white;
+                  color: $white;
+                }
+                + a{
+                    margin-top: 17px;
+                    color: rgba(0 , 0 , 0, 0.5);
+                    background-color: white;
+                }
+            }
+        }
+        p{
+            margin-top: 20px;
+            text-align: center;
+            font-family: $inter-font-family;
+            font-weight: 400;
+            a{
+                font-family: $inter-font-family;
+                color: $scab-red;
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,239 @@
+/*--------------*\
+    text-helpers
+\*--------------*/
+ul{
+ list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+span{
+  display: inline-block;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin-bottom:0 ;
+}
+.text_brand {
+  color: #FF0000 !important;
+}
+p.poppin{
+  font-family: $poppins-font-family;
+}
+p.manrope{
+  font-family: $manrope-font-family;
+}
+p.inter{
+  font-family: $inter-font-family;
+}
+p.montserrat{
+  font-family: $montserrat-font-family;
+}
+p.raleway{
+  font-family: $raleway-font-family;
+}
+p.dm-sans{
+  font-family: $dm-sans-font-family;
+}
+p.sub-title{
+  font-size: 25px;
+}
+a.poppin{
+  font-family: $poppins-font-family;
+}
+a.underline{
+  text-decoration: underline;
+}
+h1{
+  font-size: $font-size-h1;  //60
+  font-family: $manrope-font-family;
+}
+h2{
+  font-size: $font-size-h2;  //50
+  font-family: $manrope-font-family;
+}
+h3{
+  font-size: $font-size-h3;  //40
+  font-family: $manrope-font-family;
+}
+h4{
+  font-size: $font-size-h4;  //30
+  font-family: $manrope-font-family;
+}
+
+h5{
+  font-size: $font-size-h5;  //24
+  font-family: $manrope-font-family;
+}
+h5.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $manrope-font-family;
+}
+h6{
+  font-size: $font-size-h6;  //20
+  font-family: $manrope-font-family;
+}
+
+
+
+h1.poppin{
+  font-size: $font-size-h1;  //60
+  font-family: $poppins-font-family;
+}
+h2.poppin{
+  font-size: $font-size-h2;  //50
+  font-family: $poppins-font-family;
+}
+h3.poppin{
+  font-size: $font-size-h3;  //40
+  font-family: $poppins-font-family;
+}
+h4.poppin{
+  font-size: $font-size-h4;  //30
+  font-family: $poppins-font-family;
+}
+
+h5.poppin{
+  font-size: $font-size-h5;  //24
+  font-family: $poppins-font-family;
+}
+h5.poppin.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $poppins-font-family;
+}
+h6.poppin{
+  font-size: $font-size-h6;  //20
+  font-family: $poppins-font-family;
+}
+
+
+
+h1.roboto{
+  font-size: $font-size-h1;  //60
+  font-family: $roboto-font-family;
+}
+h2.roboto{
+  font-size: $font-size-h2;  //50
+  font-family: $roboto-font-family;
+}
+h3.roboto{
+  font-size: $font-size-h3;  //40
+  font-family: $roboto-font-family;
+}
+h4.roboto{
+  font-size: $font-size-h4;  //30
+  font-family: $roboto-font-family;
+}
+
+h5.roboto{
+  font-size: $font-size-h5;  //24
+  font-family: $roboto-font-family;
+}
+h5.roboto.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $roboto-font-family;
+}
+h6.roboto{
+  font-size: $font-size-h6;  //20
+  font-family: $roboto-font-family;
+}
+
+
+
+
+h1.inter{
+  font-size: $font-size-h1;  //60
+  font-family: $inter-font-family;
+}
+h2.inter{
+  font-size: $font-size-h2;  //50
+  font-family: $inter-font-family;
+}
+h3.inter{
+  font-size: $font-size-h3;  //40
+  font-family: $inter-font-family;
+}
+h4.inter{
+  font-size: $font-size-h4;  //30
+  font-family: $inter-font-family;
+}
+
+h5.inter{
+  font-size: $font-size-h5;  //24
+  font-family: $inter-font-family;
+}
+h5.inter.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $inter-font-family;
+}
+h6.inter{
+  font-size: $font-size-h6;  //20
+  font-family: $inter-font-family;
+}
+
+
+
+
+h1.montserrat{
+  font-size: $font-size-h1;  //60
+  font-family: $montserrat-font-family;
+}
+h2.montserrat{
+  font-size: $font-size-h2;  //50
+  font-family: $montserrat-font-family;
+}
+h3.montserrat{
+  font-size: $font-size-h3;  //40
+  font-family: $montserrat-font-family;
+}
+h4.montserrat{
+  font-size: $font-size-h4;  //30
+  font-family: $montserrat-font-family;
+}
+
+h5.montserrat{
+  font-size: $font-size-h5;  //24
+  font-family: $montserrat-font-family;
+}
+h5.montserrat.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $montserrat-font-family;
+}
+h6.montserrat{
+  font-size: $font-size-h6;  //20
+  font-family: $montserrat-font-family;
+}
+
+
+
+
+h1.dm-sans{
+  font-size: $font-size-h1;  //60
+  font-family: $dm-sans-font-family;
+}
+h2.dm-sans{
+  font-size: $font-size-h2;  //50
+  font-family: $dm-sans-font-family;
+}
+h3.dm-sans{
+  font-size: $font-size-h3;  //40
+  font-family: $dm-sans-font-family;
+}
+h4.dm-sans{
+  font-size: $font-size-h4;  //30
+  font-family: $dm-sans-font-family;
+}
+
+h5.dm-sans{
+  font-size: $font-size-h5;  //24
+  font-family: $dm-sans-font-family;
+}
+h5.montserrat.sub_title{
+  font-size: $font-size-5-sub;  //25
+  font-family: $dm-sans-font-family;
+}
+h6.dm-sans{
+  font-size: $font-size-h6;  //20
+  font-family: $dm-sans-font-family;
+}

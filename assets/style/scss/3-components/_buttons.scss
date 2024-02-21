@@ -1,0 +1,92 @@
+/*-----------------*\
+    Button Section
+\*-----------------*/
+
+.btn{
+  color: white;
+  &:hover,
+  &:focus{
+    outline: none;
+    box-shadow: none;
+  }
+}
+//brand red
+.btn_brand_circle,
+.btn_brand_sign_in,
+.btn_brand_fill{
+  font-family: $montserrat-font-family;
+  background-color:$scab-red;
+  border: 1px solid $scab-red;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  &:hover{
+    background-color: transparent;
+    border: 1px solid $scab-red;
+    color: $scab-red;
+  }
+}
+.btn_brand_circle{
+  padding: 20px 32px;
+}
+.btn_brand_sign_in{
+  padding: 15px 32px;
+}
+.btn_brand_fill{
+  border-radius: 14px;
+  padding: 16px 50px;
+}
+//fill transparent
+.btn_white_outline,
+.btn_white_sign_up_outline{
+  background-color:transparent;
+  border: 1px solid $white;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  &:hover{
+    background-color: $white;
+    border: 1px solid $white;
+    color: $scab-red;
+  }
+}
+.btn_white_outline{
+  padding: 14px 40px;
+  font-family: $manrope-font-family;
+}
+.btn_white_sign_up_outline{
+  font-family: $montserrat-font-family;
+  padding: 15px 37px;
+}
+//fill white
+.btn_white_fill{
+  font-family: $montserrat-font-family;
+  background-color:$white;
+  border: 1px solid $white;
+  padding: 15px 34px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  color: $scab-red;
+  &:hover{
+    background-color: transparent;
+    border: 1px solid $white;
+    color: $white;
+  }
+}
+//fill brand 
+.btn_brand_outline{
+  font-family: $montserrat-font-family;
+  background-color:transparent;
+  border: 1px solid $scab-red;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  color: $scab-red;
+  padding: 15px 26px;
+  &:hover{
+    background-color: $scab-red;
+    border: 1px solid $scab-red;
+    color: $white;
+  }
+}

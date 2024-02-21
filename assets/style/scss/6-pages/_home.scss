@@ -1,0 +1,97 @@
+/*--------------*\
+    Home Page
+\*--------------*/
+.section_services{
+    padding-top: 157px;
+    padding-bottom: 257px;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 11px;
+        width: 100%;
+        height: 101px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.64);
+        box-shadow: 34px -54px 16px -30px rgb(0, 0, 0);
+        z-index: 1;
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-image: url(/assets/images/right-circle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 64%;
+        height: 100%;
+        background-position: right;
+    }
+    > .container{
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            left: -29%;
+            top: -94%;
+            background-image: url(/assets/images/left-circle.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            height: 192%;
+            z-index: 1;
+        }
+    }
+   
+    .service_detail{
+        background-image: url('/assets/images/Container.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(15px);
+        // background-color: rgba(255,255,255,0.1);
+        padding: 35px 42px;    
+        position: relative;
+        border-radius: 16px;
+        z-index: 33;
+        i{
+            margin-bottom: 40px;
+        } 
+        h6{
+            margin-bottom: 60px;
+
+        }
+    }
+    h2{
+        margin-bottom: 97px;
+        line-height: 1.58em;
+        position: relative;
+        z-index: 22;
+    }
+    .inner_right_design{
+        position: absolute;
+        right: -76px;
+        top: 136px;
+        width: 240px;
+        height: 240px;
+    }
+    .inner_left_design {
+        position: absolute;
+        left: -74px;
+        bottom: -47px;
+        width: 180px;
+        height: 180px;
+    }
+}
+.section_platform_detail{
+    .container{
+        position: relative;
+     > .row {
+        position: absolute;
+        bottom: 27%;
+        left: 0;
+        width: 100%;
+        align-items: center;
+     }
+    }
+}

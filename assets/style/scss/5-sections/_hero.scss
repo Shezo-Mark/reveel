@@ -1,0 +1,36 @@
+/*--------------*\
+    Hero Section
+\*--------------*/
+.section_banner{
+    background-image: url('/assets/images/banner-bg.png ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:322px 0 254px;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url(/assets/images/banner-overly.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1{
+        line-height: 1.31em;
+        position: relative;
+        z-index: 99;
+    }
+    p{
+        position: relative;
+        z-index: 99;
+    }
+    a{
+        position: relative;
+        z-index: 99;
+    }
+}

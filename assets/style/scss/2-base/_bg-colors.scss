@@ -1,0 +1,7 @@
+/*--------------*\
+    bg-color
+\*--------------*/
+
+.bg_brand{
+  background-color: map_get($bg-colors,  brand);
+}

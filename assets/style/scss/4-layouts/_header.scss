@@ -1,0 +1,16 @@
+/*--------------*\
+    header Section
+\*--------------*/
+.home_header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999999;
+    .user_info{
+        text-align: right;
+    }
+    .logo{
+        width: 192px;
+        display: inline-block;
+    }
+}

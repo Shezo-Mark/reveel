@@ -1,0 +1,49 @@
+/*--------------*\
+    Base
+\*--------------*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: $main-font-family;
+    color: map_get($bg-colors, $white);
+    font-size: $font-size-7;
+    position: relative;
+    background-color: $black;
+    font-weight: $font-regular;
+}
+
+.container{
+  max-width: 1300px;
+}
+.section{
+  padding: 70px 0;
+}
+.section_pt{
+  padding-top:  70px;
+}
+.section_pb{
+  padding-bottom: 70px;
+}
+.fw_semibold{
+  font-weight: 600;
+}
+.mb_34{
+  margin-bottom: 34px;
+}
+.clr_light{
+  color: #8C8C8C;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column{
+  flex-flow: column;
+}
+.ms-44{
+  margin-left: 44px;
+}

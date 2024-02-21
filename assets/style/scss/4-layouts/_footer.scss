@@ -1,0 +1,46 @@
+/*--------------*\
+    Footer Section
+\*--------------*/
+footer{
+    padding-bottom: 70px;
+    .logo{
+        width: 241px;
+        margin-bottom: 29px;
+        display: block;
+    }
+    a{
+        color: white;
+        font-weight: 600;
+    }
+    .social_links{
+        max-width: 197px;
+        margin-top: 43px;
+        a{
+            font-weight: 500;
+        + a{
+            margin-left: 27px;
+        }
+        i{
+            font-size: 18px;
+
+        }
+        }
+    }
+    .footer_nav{
+        margin: 49px 0 58px;
+        max-width: 479px;
+        display: block;
+        ul{
+            li{
+                a{
+                    font-size: 15px;
+                    font-family: 'poppin', sans-serif;
+                    font-weight: 500;
+                }
+                +li{
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
