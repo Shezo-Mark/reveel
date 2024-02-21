@@ -8,12 +8,25 @@
     background-position: center;
     padding:322px 0 254px;
     position: relative;
+    &.browse_bg{
+        background-image: url('/assets/images/browse-bg.jpg');
+        padding:322px 0 0;
+         img{
+            position: relative;
+            z-index: 99;
+            margin-bottom: 23px;
+        }
+        &:before{
+            background-color: rgba(0,0,0,0.6);
+            background-image: none;
+        }
+    }
     &:before{
         content: "";
         position: absolute;
         left: 0;
         top: 0;
-        background-image: url(/assets/images/banner-overly.png);
+        background-image: url('/assets/images/banner-overly.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;

@@ -26,6 +26,20 @@
     color: $scab-red;
   }
 }
+.btn_brand_outline_white{
+  font-family: $montserrat-font-family;
+  background-color:transparent;
+  border: 1px solid $white;
+  border-radius: 14px;
+  padding: 16px 50px;
+  font-weight: 500;
+  font-size: 18px;
+  &:hover{
+    background-color: $scab-red;
+    border: 1px solid $scab-red;
+    color: $white;
+  }
+}
 .btn_brand_circle{
   padding: 20px 32px;
 }
