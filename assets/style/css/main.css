@@ -10108,8 +10108,10 @@ body {
   font-weight: 400;
 }
 
-.container {
-  max-width: 1300px;
+@media only screen and (min-width: 87.5em) {
+  .container {
+    max-width: 1300px;
+  }
 }
 
 .section {
@@ -10249,6 +10251,17 @@ body {
   color: #ffffff;
 }
 
+/*------------------*\
+    Carousel Section
+\*------------------*/
+.section_slider_comp .item a {
+  display: block;
+}
+.section_slider_comp .owl-dots,
+.section_slider_comp .owl-nav {
+  display: none;
+}
+
 /*--------------*\
     Form Section
 \*--------------*/
@@ -10364,19 +10377,65 @@ body {
 /*--------------*\
     header Section
 \*--------------*/
-.home_header {
+.home_header,
+.logedin_header {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 99999999;
 }
-.home_header .user_info {
+.home_header .user_info,
+.logedin_header .user_info {
   text-align: right;
 }
 
 .header_logo {
   width: 192px;
   display: inline-block;
+}
+
+.logedin_header .navbar-collapse {
+  position: relative;
+  top: 12px;
+}
+.logedin_header .navbar-collapse > ul {
+  margin-left: 120px;
+}
+.logedin_header .navbar-collapse > ul li a {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  color: #ffffff !important;
+  font-weight: 200;
+}
+.logedin_header .navbar-collapse > ul li a.active {
+  font-weight: 700;
+}
+.logedin_header .navbar-collapse > ul li + li {
+  margin-left: 32px;
+}
+.logedin_header .navbar-collapse > .users_info form {
+  display: flex;
+  align-items: center;
+}
+.logedin_header .navbar-collapse > .users_info form > a {
+  margin-right: 24px;
+}
+.logedin_header .navbar-collapse > .users_info form > a i {
+  font-size: 18px;
+  color: #ffffff;
+}
+.logedin_header .navbar-collapse > .users_info form .dropdown button {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+.logedin_header .navbar-collapse > .users_info form .dropdown button img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.logedin_header .navbar-collapse > .users_info form .dropdown button:after {
+  content: unset;
 }
 
 /*--------------*\

@@ -1,3 +1,20 @@
 /*------------------*\
     Carousel Section
 \*------------------*/
+// .ml-72{
+//     margin-left: 72px;
+// }
+.section_slider_comp {
+    // .slide_1 img{
+    //     max-width: 240px;
+    // }
+    .item{
+        a{
+            display: block;
+        }
+    }
+    .owl-dots,
+    .owl-nav {
+        display: none;
+    }
+}
