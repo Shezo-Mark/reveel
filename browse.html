@@ -58,6 +58,9 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!--custom css-->
+    <link rel="stylesheet" href="./assets/style/css/video-slider.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./assets/style/css/strip.css">
     <link rel="stylesheet" href="./assets/style/css/main.css">
     <title>Reveel</title>
 </head>
@@ -125,7 +128,7 @@
             </div>
         </div>
         <div class="section_slider_comp">
-            <div class="owl-carousel owl-theme ml-72 slide_1">
+            <!-- <div class="owl-carousel owl-theme ml-72 slide_1">
                 <div class="item">
                     <a href="#"><img src="assets/images/Film-1.png" alt="" class="img-fluid"></a>
                 </div>
@@ -162,11 +165,82 @@
                 <div class="item">
                     <a href=""><img src="assets/images/Film-4.png" alt="" class="img-fluid"></a>
                 </div>
+            </div> -->
+            <div class="wrapper noselect">
+                    <span><a href="#">Most Viewed</a></span>
+                    <div class="strip-carousel" id="mostviewed">
+                    <div class="arrow-left">&lsaquo;</div>
+                    <div class="arrow-right">&rsaquo;</div>
+            
+                    <div class="frames">
+                        <a href="#"><div class="frame"><img src="assets/images/Film-1.png" alt="" class="img-vw"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+            
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+            
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                        <a href="#"><div class="frame"></div></a>
+                    </div>
+                    </div>
+                
             </div>
         </div>
+
+
     </section>
 
-
+  <section class="section_video_slid">
+    <div class="container_main">
+        <button type="button" id="moveLeft" class="btn-nav">
+          ᐊ
+        </button>
+        <div class="container-indicators">
+          <div class="indicator active" data-index=0></div>
+          <div class="indicator" data-index=1></div>
+          <div class="indicator" data-index=2></div>
+        </div>
+        <div class="slider" id="mySlider">
+          <div class="movie" id="movie0">
+            <img
+              src="https://images.unsplash.com/photo-1585951237318-9ea5e175b891?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              alt="" srcset="">
+            <div class="description">
+              <div class="description__buttons-container">
+                <div class="description__button"><i class="fas fa-play"></i></div>
+                <div class="description__button"><i class="fas fa-plus"></i></div>
+                <div class="description__button"><i class="fas fa-thumbs-up"></i></div>
+                <div class="description__button"><i class="fas fa-thumbs-down"></i></div>
+                <div class="description__button"><i class="fas fa-chevron-down"></i></div>
+              </div>
+              <div class="description__text-container">
+                <span class="description__match">97% Match</span>
+                <span class="description__rating">TV-14</span>
+                <span class="description__length">2h 11m</span>
+                <br><br>
+                <span>Explosive</span>
+                <span>&middot;</span>
+                <span>Exciting</span>
+                <span>&middot;</span>
+                <span>Family</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" id="moveRight" class="btn-nav">
+          ᐅ
+        </button>
+      </div>
+  </section>
+    
 
     <footer class="section_pt">
         <div class="container">
@@ -196,10 +270,25 @@
         </div>
     </footer>
 
+
+
+
+    <!-- jQuery Api -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <!-- JS -->
+   
+
+    <!-- CSS -->
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="assets/script/owl.carousel.min.js"></script>
     <script src="./assets/script/bootstrap.bundle.min.js"></script>
+    <script src="http://www.indiainternetready.com/wp-includes/js/jquery/jquery.js?ver=1.8.3"></script> <script src="http://www.indiainternetready.com/wp-content/themes/iir/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/script/video-slider.js"></script>
+    <script src="./assets/script/strip.js"></script>
     <script src="./assets/script/custom.js"></script>
 </body>
 

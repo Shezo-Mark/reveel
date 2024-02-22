@@ -10276,6 +10276,9 @@ body {
 .section_slider_comp {
   margin-top: 65px;
 }
+.section_slider_comp a {
+  display: unset;
+}
 .section_slider_comp .item a {
   display: block;
 }
