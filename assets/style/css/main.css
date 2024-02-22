@@ -10533,7 +10533,7 @@ footer .footer_nav ul li + li {
     Hero Section
 \*--------------*/
 .section_banner {
-  background-image: url("/assets/images/banner-bg.png ");
+  background-image: url("/assets/images/banner-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
