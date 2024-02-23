@@ -47,3 +47,18 @@
         z-index: 99;
     }
 }
+// article img hero section img
+.article-img-hero{
+    .img-hero{
+      width: 100vw;
+      height: 37.153vw;  
+    }
+    
+}
+// article latest blogs
+.latest-article-section{
+    margin: 3.2vw 4.25vw;
+    .lastest-article-section{
+        font-weight: $font-bold;
+    }
+}

@@ -10634,6 +10634,18 @@ footer .footer_nav ul li + li {
   z-index: 99;
 }
 
+.article-img-hero .img-hero {
+  width: 100vw;
+  height: 37.153vw;
+}
+
+.latest-article-section {
+  margin: 3.2vw 4.25vw;
+}
+.latest-article-section .lastest-article-section {
+  font-weight: 700;
+}
+
 /*--------------*\
     Home Page
 \*--------------*/
