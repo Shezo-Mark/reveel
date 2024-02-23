@@ -10156,6 +10156,11 @@ body {
   margin-left: 2.2vw;
 }
 
+.my-4 {
+  margin-top: 1.2vw;
+  margin-bottom: 1.2vw;
+}
+
 /*-----------------*\
     Button Section
 \*-----------------*/
@@ -10640,31 +10645,30 @@ footer .footer_nav ul li + li {
 }
 
 .latest-article-section {
-  margin: 3.2vw 5.903vw;
+  margin: 3.2vw 0;
 }
-.latest-article-section .lastest-article-section,
-.latest-article-section .heading-article-section {
-  font-weight: 700;
+.latest-article-section h4, .latest-article-section .h4 {
+  position: relative;
 }
-.latest-article-section hr {
-  height: 0.28vw;
-  width: 4.7vw;
-  color: #ffffff;
-  margin-top: 0.7vw;
-  padding: 0;
+.latest-article-section h4:before, .latest-article-section .h4:before {
+  content: "";
+  position: absolute;
+  bottom: -1.2vw;
+  left: 0;
+  width: 3.8vw;
+  height: 0.3vw;
+  background-color: white;
 }
-.latest-article-section .heading-article-section {
-  margin-top: 2.778vw;
+.latest-article-section h3, .latest-article-section .h3 {
+  margin-top: 3vw !important;
 }
-.latest-article-section .date-article-section {
+.latest-article-section p {
   color: #F2F4F5;
   font-size: 0.8vw;
   font-weight: 200;
   margin-top: 0.7vw;
 }
-.latest-article-section .text-article-section {
-  color: #F2F4F5;
-  font-size: 1.2vw;
+.latest-article-section p + p {
   margin-top: 3.742vw;
 }
 

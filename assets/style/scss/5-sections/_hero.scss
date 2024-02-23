@@ -57,31 +57,31 @@
 }
 // article latest blogs
 .latest-article-section{
-    margin: 3.2vw 5.903vw;
-    .lastest-article-section,
-    .heading-article-section
-    {
-        font-weight: $font-bold;
+    margin: 3.2vw 0;
+    h4{
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            bottom: -1.2vw;
+            left: 0;
+            width: 3.8vw;
+            height: 0.3vw;
+            background-color: white;
+        }
     }
-    hr{
-        height: 0.28vw;
-        width: 4.7vw;
-        color: $white;
-        margin-top: 0.7vw;
-        padding: 0;
+    h3{
+        margin-top: 3vw !important;
     }
-    .heading-article-section{
-        margin-top: 2.778vw;
-    }
-    .date-article-section{
+       
+    p{
         color: $greyish-white;
         font-size: 0.8vw;
         font-weight: 200;
         margin-top: 0.7vw;
-    }
-    .text-article-section{
-        color: $greyish-white;
-        font-size: 1.2vw;
-        margin-top: 3.742vw;
+
+        +p{
+            margin-top: 3.742vw;
+        }
     }
 }
