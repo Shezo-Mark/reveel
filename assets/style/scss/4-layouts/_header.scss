@@ -12,20 +12,23 @@
     }
 }
 .header_logo{
-    width: 192px;
+    width: 9.6vw;
     display: inline-block;
+    img{
+        width: 100%;
+    }
 }
 
 // loged in user header 
 .logedin_header{
     .navbar-collapse{
         position: relative;
-         top: 12px;
+         top: 0.6vw;
       > ul{
-             margin-left: 120px;   
+             margin-left: 6vw;   
         li{
             a{
-                font-size: 18px ;
+                font-size: 0.8999999999999999vw;
                 font-family: $manrope-font-family;
                 color: $white !important;
                 font-weight: $font-extra-light;
@@ -35,7 +38,7 @@
             }
 
             + li{
-                margin-left: 32px;
+                margin-left: 1.6vw;
              }
         }
        }
@@ -44,9 +47,9 @@
                 display: flex;
                 align-items: center;
                 > a{
-                    margin-right: 24px;
+                    margin-right: 1.2vw;
                     i{
-                        font-size: 18px;
+                        font-size: 0.8999999999999999vw;
                         color: $white;
                     }
                 }
@@ -56,9 +59,9 @@
                      border-color: transparent;
                      padding: 0;
                      img{
-                         width: 40px;
-                         height: 40px;
-                         border-radius: 50px;
+                         width: 2vw;
+                         height: 2vw;
+                         border-radius: 2.5vw;
                      }
                      &:after{
                          content: unset;

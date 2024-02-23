@@ -2,43 +2,46 @@
     Footer Section
 \*--------------*/
 footer{
-    padding-bottom: 70px;
+    padding-bottom: 3.5000000000000004vw;
     .logo{
-        width: 241px;
-        margin-bottom: 29px;
+        width: 12.049999999999999vw;
+        margin-bottom: 1.4500000000000002vw;
         display: block;
+        img{
+            width: 100%;
+        }
     }
     a{
         color: white;
         font-weight: 600;
     }
     .social_links{
-        max-width: 197px;
-        margin-top: 43px;
+        max-width: 9.85vw;
+        margin-top: 2.15vw;
         a{
             font-weight: 500;
         + a{
-            margin-left: 27px;
+            margin-left: 1.35vw;
         }
         i{
-            font-size: 18px;
+            font-size: 0.8999999999999999vw;
 
         }
         }
     }
     .footer_nav{
-        margin: 49px 0 58px;
-        max-width: 479px;
+        margin: 2.45vw 0 2.9000000000000004vw;
+        max-width: 23.95vw;
         display: block;
         ul{
             li{
                 a{
-                    font-size: 15px;
+                    font-size: 0.75vw;
                     font-family: 'poppin', sans-serif;
                     font-weight: 500;
                 }
                 +li{
-                    margin-left: 50px;
+                    margin-left: 2.5vw;
                 }
             }
         }

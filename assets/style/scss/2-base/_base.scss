@@ -17,23 +17,23 @@ body {
 
 .container{
   @include grid-xxl{
-    max-width: 1300px;
+    max-width: 65vw;
   }
 }
 .section{
-  padding: 70px 0;
+  padding: 2.5000000000000004vw  0;
 }
 .section_pt{
-  padding-top:  70px;
+  padding-top:  3.5000000000000004vw;
 }
 .section_pb{
-  padding-bottom: 70px;
+  padding-bottom:  3.5000000000000004vw;
 }
 .fw_semibold{
   font-weight: 600;
 }
 .mb_34{
-  margin-bottom: 34px;
+  margin-bottom: 1.7000000000000002vw;
 }
 .clr_light{
   color: #8C8C8C;
@@ -47,5 +47,5 @@ body {
   flex-flow: column;
 }
 .ms-44{
-  margin-left: 44px;
+  margin-left: 2.1999999999999997vw;
 }
