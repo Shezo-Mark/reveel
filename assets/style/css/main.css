@@ -10640,10 +10640,32 @@ footer .footer_nav ul li + li {
 }
 
 .latest-article-section {
-  margin: 3.2vw 4.25vw;
+  margin: 3.2vw 5.903vw;
 }
-.latest-article-section .lastest-article-section {
+.latest-article-section .lastest-article-section,
+.latest-article-section .heading-article-section {
   font-weight: 700;
+}
+.latest-article-section hr {
+  height: 0.28vw;
+  width: 4.7vw;
+  color: #ffffff;
+  margin-top: 0.7vw;
+  padding: 0;
+}
+.latest-article-section .heading-article-section {
+  margin-top: 2.778vw;
+}
+.latest-article-section .date-article-section {
+  color: #F2F4F5;
+  font-size: 0.8vw;
+  font-weight: 200;
+  margin-top: 0.7vw;
+}
+.latest-article-section .text-article-section {
+  color: #F2F4F5;
+  font-size: 1.2vw;
+  margin-top: 3.742vw;
 }
 
 /*--------------*\

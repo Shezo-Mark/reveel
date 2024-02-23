@@ -57,8 +57,31 @@
 }
 // article latest blogs
 .latest-article-section{
-    margin: 3.2vw 4.25vw;
-    .lastest-article-section{
+    margin: 3.2vw 5.903vw;
+    .lastest-article-section,
+    .heading-article-section
+    {
         font-weight: $font-bold;
+    }
+    hr{
+        height: 0.28vw;
+        width: 4.7vw;
+        color: $white;
+        margin-top: 0.7vw;
+        padding: 0;
+    }
+    .heading-article-section{
+        margin-top: 2.778vw;
+    }
+    .date-article-section{
+        color: $greyish-white;
+        font-size: 0.8vw;
+        font-weight: 200;
+        margin-top: 0.7vw;
+    }
+    .text-article-section{
+        color: $greyish-white;
+        font-size: 1.2vw;
+        margin-top: 3.742vw;
     }
 }
