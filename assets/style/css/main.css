@@ -10057,6 +10057,41 @@ h6.dm-sans, .dm-sans.h6 {
   font-family: "DM Sans", sans-serif;
 }
 
+h1.raleway, .raleway.h1 {
+  font-size: 3vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h2.raleway, .raleway.h2 {
+  font-size: 2.5vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h3.raleway, .raleway.h3 {
+  font-size: 2vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h4.raleway, .raleway.h4 {
+  font-size: 1.5vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h5.raleway, .raleway.h5 {
+  font-size: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h5.raleway.sub_title, .raleway.sub_title.h5 {
+  font-size: 1.25vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+h6.raleway, .raleway.h6 {
+  font-size: 1vw;
+  font-family: "DM Sans", sans-serif;
+}
+
 /*--------------*\
     Mix-Helpers
 \*--------------*/
