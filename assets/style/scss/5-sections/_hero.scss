@@ -6,15 +6,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding:322px 0 254px;
+    padding:20.125vw 0 15.875vw;
     position: relative;
     &.browse_bg{
         background-image: url('/assets/images/browse-bg.jpg');
-        padding:322px 0 0;
+        padding:20.125vw 0 0;
          img{
             position: relative;
             z-index: 99;
-            margin-bottom: 23px;
+            margin-bottom: 1.5vw;
         }
         &:before{
             background-color: rgba(0,0,0,0.6);

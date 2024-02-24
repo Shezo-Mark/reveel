@@ -57,9 +57,18 @@ body {
   margin-top: 2.4vw;
 }
 .date_com{
-  font-size: 12px;
+  font-size: 0.75vw;
   font-weight: 200;
   &.mb-50{
-    margin-bottom: 50px;
+    margin-bottom: 3.125vw;
   }
+}
+.mb-50{
+  margin-bottom: 3.125vw;
+}
+.mb-10{
+  margin-bottom: 0.625vw !important;
+}
+.mb-80{
+  margin-bottom: 5vw !important;
 }
