@@ -30,7 +30,7 @@ footer{
         }
     }
     .footer_nav{
-        margin: 2.45vw 0 2.9000000000000004vw;
+        // margin: 2.45vw 0 2.9000000000000004vw;
         max-width: 23.95vw;
         display: block;
         ul{
@@ -45,5 +45,20 @@ footer{
                 }
             }
         }
+    }
+}
+
+
+.footer_article{
+    padding-top: 258px;
+    .footer_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .column_flex{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
     }
 }

@@ -21,7 +21,7 @@ body {
   }
 }
 .section{
-  padding: 2.5000000000000004vw  0;
+  padding: 3.5000000000000004vw  0;
 }
 .section_pt{
   padding-top:  3.5000000000000004vw;
@@ -55,4 +55,11 @@ body {
 }
 .mt-5{
   margin-top: 2.4vw;
+}
+.date_com{
+  font-size: 12px;
+  font-weight: 200;
+  &.mb-50{
+    margin-bottom: 50px;
+  }
 }

@@ -1,3 +1,38 @@
 .non_ab{
     position: unset;
   }
+ .underline_heading{
+  position: relative;
+  &:first-of-type{
+      margin-bottom: 60px;
+      &:before{
+          content: "";
+          position: absolute;
+          bottom: -1.2vw;
+          left: 0;
+          width: 3.8vw;
+          height: 0.3vw;
+          background-color: white;
+      }
+  }
+ }
+ .article_btn{
+  position: relative;
+  color: $white;
+  margin-top: 15px;
+  &:before{
+    content: "";
+    position: absolute;
+    bottom: -0.2vw;
+    left: 0;
+    width: 2.8vw;
+    height: 0.1vw;
+    background-color: white;
+  }
+  &.brand_text{
+    color: #ff6464;
+    &:before{
+        background-color: #ff6464;
+    }
+  }
+}

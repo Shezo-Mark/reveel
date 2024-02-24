@@ -47,87 +47,87 @@
         z-index: 99;
     }
 }
-// article img hero section img
 .article-img-hero{
     .img-hero{
       width: 100vw;
       height: 37.153vw;  
     }
-    
 }
-// article latest blogs
-.latest-article-section{
-    margin: 3.2vw 0;
-    .main-con{
-        > h4{
-            position: relative;
-            &:before{
-                content: "";
-                position: absolute;
-                bottom: -1.2vw;
-                left: 0;
-                width: 3.8vw;
-                height: 0.3vw;
-                background-color: white;
-            }
-        }
-        > h3{
-            margin-top: 3vw !important;
-        }
-           
-        > p{
-            color: $greyish-white;
-            font-size: 0.8vw;
-            font-weight: 200;
-            margin-top: 0.7vw;
-    
-            +p{
-                margin-top: 3.742vw;
-            }
-        }
-    }
-    //recent-article-section
-    .recent-article {
-    margin: 3.8vw 0;
-    position: relative;
-            &:before{
-                content: "";
-                position: absolute;
-                bottom: -1.2vw;
-                left: 0;
-                width: 3.8vw;
-                height: 0.3vw;
-                background-color: white;
-            }
+// article img hero section img
 
-    }
-    .mini-title{
-        font-weight: $font-bold ;
-        font-family: $roboto-font-family;
-    }
-    h4{
-        font-weight: $font-bold;
-        margin: 0.9vw 0;
-    }
-    p{
-        color: $greyish-white;
-        font-size: 0.8vw;
-        font-weight: 200;
-        margin-top: 0.7vw;
-    }
-    .read-more{
-        margin: 0.5vw 0;
-        position: relative;
-                &:before{
-                    content: "";
-                    position: absolute;
-                    bottom: -0.6vw;
-                    left: 0;
-                    width: 3.8vw;
-                    height: 0.3vw;
-                    background-color: white;
-                }
     
-        }
+// // article latest blogs
+// .article_main{
+//     margin: 3.2vw 0;
+//     .main-con{
+//         > h4{
+//             position: relative;
+//             &:before{
+//                 content: "";
+//                 position: absolute;
+//                 bottom: -1.2vw;
+//                 left: 0;
+//                 width: 3.8vw;
+//                 height: 0.3vw;
+//                 background-color: white;
+//             }
+//         }
+//         > h3{
+//             margin-top: 3vw !important;
+//         }
+           
+//         > p{
+//             color: $greyish-white;
+//             font-size: 0.8vw;
+//             margin-top: 0.7vw;
     
-}
+//             +p{
+//                 margin-top: 3.742vw;
+//             }
+//         }
+//     }
+//     //recent-article-section
+//     .recent-article {
+//     margin: 3.8vw 0;
+//     position: relative;
+//             &:before{
+//                 content: "";
+//                 position: absolute;
+//                 bottom: -1.2vw;
+//                 left: 0;
+//                 width: 3.8vw;
+//                 height: 0.3vw;
+//                 background-color: white;
+//             }
+
+//     }
+//     .mini-title{
+//         font-weight: $font-bold ;
+//         font-family: $roboto-font-family;
+//     }
+//     h4{
+//         font-weight: $font-bold;
+//         margin: 0.9vw 0;
+//     }
+//     p{
+//         color: $greyish-white;
+//         font-size: 0.8vw;
+//         font-weight: 200;
+//         margin-top: 0.7vw;
+//     }
+//     .read-more{
+//         margin: 0.5vw 0;
+//         position: relative;
+//                 &:before{
+//                     content: "";
+//                     position: absolute;
+//                     bottom: -0.6vw;
+//                     left: 0;
+//                     width: 3.8vw;
+//                     height: 0.3vw;
+//                     background-color: white;
+//                 }
+    
+//         }
+    
+// }
