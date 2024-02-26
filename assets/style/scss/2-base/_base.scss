@@ -19,6 +19,7 @@ body {
   @include grid-xxl{
     max-width: 65vw;
   }
+  
 }
 .section{
   padding: 3.5000000000000004vw  0;
@@ -71,4 +72,7 @@ body {
 }
 .mb-80{
   margin-bottom: 5vw !important;
+}
+.pr-5{
+  padding-right: 0.5vw;
 }

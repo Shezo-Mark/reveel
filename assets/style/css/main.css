@@ -10220,6 +10220,10 @@ body {
   margin-bottom: 5vw !important;
 }
 
+.pr-5 {
+  padding-right: 0.5vw;
+}
+
 /*-----------------*\
     Button Section
 \*-----------------*/
@@ -10364,8 +10368,8 @@ body {
 }
 #sync1 iframe {
   border-radius: 0.5vw;
-  width: 43vw;
-  height: 24vw;
+  width: 57vw;
+  height: 32vw;
 }
 
 .owl-carousel .owl-dot {
@@ -10757,12 +10761,21 @@ footer .footer_nav ul li + li {
 }
 
 .article-img-hero .img-hero {
-  width: 100vw;
-  height: 37.153vw;
+  width: 98vw;
+  height: 55vw;
 }
 
 .section_article_desc h4 + h4, .section_article_desc .h4 + h4, .section_article_desc h4 + .h4, .section_article_desc .h4 + .h4 {
   margin-bottom: 1.25vw;
+}
+.section_article_desc .div_article_icons {
+  display: flex;
+  justify-content: end;
+  font-size: 1.2vw;
+}
+.section_article_desc .div_article_icons a {
+  padding-left: 0.75vw;
+  color: #ffffff;
 }
 
 article {
@@ -10848,6 +10861,44 @@ article .article_content h4, article .article_content .h4 {
 
 .w-img-100 {
   width: 100%;
+}
+
+.section_blog_news_letters {
+  background-image: url("/assets/images/newsletter_blogs_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section_blog_news_letters .form_group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.section_blog_news_letters .form_group .form_input {
+  width: 70%;
+  margin-right: 0.625vw;
+}
+.section_blog_news_letters .form_group .form_input input {
+  width: 100%;
+  padding: 1.1vw 0.625vw;
+  border-radius: 0.5vw;
+  border: 0.063vw solid #FF0000;
+  background-color: transparent;
+  color: #F2F4F5;
+  font-weight: 100;
+}
+.section_blog_news_letters .form_group .form_input input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.section_blog_news_letters .form_group .form_input input::placeholder {
+  color: #F2F4F5;
+}
+.section_blog_news_letters .form_group .form_btn {
+  width: 30%;
+}
+.section_blog_news_letters .form_group .form_btn .btn_brand_outline_white {
+  border-radius: 0.5vw;
 }
 
 /*--------------*\
@@ -10983,6 +11034,10 @@ article .article_content h4, article .article_content .h4 {
 }
 .article_btn.brand_text:before {
   background-color: #ff6464;
+}
+
+.pl-2 {
+  padding-left: 2vw;
 }
 
 /*# sourceMappingURL=main.css.map */

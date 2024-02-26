@@ -4,7 +4,21 @@
             margin-bottom: 1.25vw;
         }
     }
+
+
+
+    // article icon 
+    .div_article_icons{
+      display: flex;
+      justify-content: end;
+      font-size: 1.2vw;
+        a{
+            padding-left: 0.75vw;
+            color: $white;
+        }
+    }
 }
+
 
 article{
   margin-bottom: 1.875vw;
@@ -98,4 +112,46 @@ article{
 
 .w-img-100{
   width: 100%;
+}
+
+// blog page news letter section
+
+.section_blog_news_letters{
+
+  background-image: url('/assets/images/newsletter_blogs_bg.png');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .form_group{
+    display: flex;
+    align-items: center;
+    width: 100%;
+     .form_input{
+      width: 70%;
+      margin-right: 0.625vw;
+      input{
+        width: 100%;
+        padding: 1.1vw 0.625vw;
+        border-radius: 0.5vw;
+        border: 0.063vw solid #FF0000;
+        background-color: transparent;
+        color: #F2F4F5;
+        font-weight: 100;
+        &:focus{
+          outline: none;
+          box-shadow: none;
+        }
+        &::placeholder{
+          color: #F2F4F5;
+        }
+      }
+     }
+     .form_btn{
+        width: 30%;
+        .btn_brand_outline_white{
+          border-radius: 0.5vw;
+        }
+     }
+  }
+
 }
