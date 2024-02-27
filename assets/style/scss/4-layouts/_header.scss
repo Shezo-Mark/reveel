@@ -14,10 +14,21 @@
 .header_logo{
     width: 9.6vw;
     display: inline-block;
+    @include grid-sm-down{
+      width: 120px;
+        }
     img{
         width: 100%;
     }
+
 }
+@include grid-sm-down{
+    .navbar-toggler {
+        color: rgba(255, 255, 255, 0.55) !important;
+        border: 1px solid white !important;
+    }
+      }
+
 
 // loged in user header 
 .logedin_header{
@@ -32,6 +43,9 @@
                 font-family: $manrope-font-family;
                 color: $white !important;
                 font-weight: $font-extra-light;
+                @include grid-sm-down{
+                font-size: 14px;
+                }
                 &.active{
                     font-weight: $font-bold;
                 }
@@ -39,6 +53,9 @@
 
             + li{
                 margin-left: 1.6vw;
+                @include grid-sm-down{
+                   margin-left: 0;
+                    }
              }
         }
        }
@@ -46,11 +63,20 @@
             form{
                 display: flex;
                 align-items: center;
+                @include grid-sm-down{
+                   justify-content: space-between;
+                   padding-left: 30px;
+                   padding-right: 30px;
+                        }
                 > a{
                     margin-right: 1.2vw;
                     i{
                         font-size: 0.8999999999999999vw;
                         color: $white;
+                        @include grid-sm-down{
+                         font-size: 20px;
+                             }
+
                     }
                 }
                 .dropdown{
@@ -62,6 +88,11 @@
                          width: 2vw;
                          height: 2vw;
                          border-radius: 2.5vw;
+                         @include grid-sm-down{
+                           width: 25px;
+                           height: 25px;
+                           border-radius: 50px;
+                                }
                      }
                      &:after{
                          content: unset;

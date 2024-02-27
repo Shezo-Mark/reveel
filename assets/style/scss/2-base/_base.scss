@@ -13,6 +13,9 @@ body {
     position: relative;
     background-color: $black;
     font-weight: $font-regular;
+    @include grid-sm-down{
+     font-size: 14px;
+    }
 }
 
 .container{
@@ -60,12 +63,22 @@ body {
 .date_com{
   font-size: 0.75vw;
   font-weight: 200;
+  @include grid-sm-down{
+    font-size: 10px;
+  }
+
   &.mb-50{
     margin-bottom: 3.125vw;
+    @include grid-sm-down{
+      margin-bottom: 15px;
+    }
   }
 }
 .mb-50{
   margin-bottom: 3.125vw;
+  @include grid-sm-down{
+    margin-bottom: 15px;
+  }
 }
 .mb-10{
   margin-bottom: 0.625vw !important;
