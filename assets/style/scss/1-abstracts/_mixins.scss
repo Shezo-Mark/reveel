@@ -58,7 +58,7 @@
   }
 
   &:-ms-input-placeholder {
-    @content
+    @content;
   }
 }
 
@@ -67,6 +67,7 @@
     @content;
   }
 }
+
 
 @mixin grid-md {
   @media #{$md-em} {

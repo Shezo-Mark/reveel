@@ -7,6 +7,9 @@ footer{
         width: 12.049999999999999vw;
         margin-bottom: 1.4500000000000002vw;
         display: block;
+        @include grid-sm-down{
+           width: 120px;
+             }
         img{
             width: 100%;
         }
@@ -18,13 +21,22 @@ footer{
     .social_links{
         max-width: 9.85vw;
         margin-top: 2.15vw;
+        @include grid-sm-down{
+            max-width: 100%;
+               }
         a{
             font-weight: 500;
         + a{
             margin-left: 1.35vw;
+            @include grid-sm-down{
+               margin-left: 15px;
+                   }
         }
         i{
             font-size: 0.8999999999999999vw;
+            @include grid-sm-down{
+                font-size: 20px;
+                   }
 
         }
         }
@@ -33,15 +45,27 @@ footer{
         // margin: 2.45vw 0 2.9000000000000004vw;
         max-width: 23.95vw;
         display: block;
+        @include grid-sm-down{
+           max-width: 100%;
+              }
         ul{
+            @include grid-sm-down{
+               margin-top: 20px;
+                  }
             li{
                 a{
                     font-size: 0.75vw;
                     font-family: 'poppin', sans-serif;
                     font-weight: 500;
+                    @include grid-sm-down{
+                       font-size: 14px;
+                         }
                 }
                 +li{
                     margin-left: 2.5vw;
+                    @include grid-sm-down{
+                       margin-left: 15px;
+                         }
                 }
             }
         }
@@ -51,14 +75,24 @@ footer{
 
 .footer_article{
     padding-top: 258px;
+    @include grid-sm-down{
+        padding-top: 40px;
+         }
     .footer_main{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include grid-sm-down{
+           flex-flow: column;
+            }
     }
     .column_flex{
         display: flex;
         flex-flow: column;
         align-items: flex-end;
+        @include grid-sm-down{
+           justify-content: center;
+           align-items: center;
+             }
     }
 }

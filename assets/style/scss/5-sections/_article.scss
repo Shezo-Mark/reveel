@@ -12,9 +12,15 @@
       display: flex;
       justify-content: end;
       font-size: 1.2vw;
+      @include grid-sm-down{
+        font-size: 15px;
+      }
         a{
             padding-left: 0.75vw;
             color: $white;
+            @include grid-sm-down{
+              margin-left: 15px;
+            }
         }
     }
 }
@@ -29,8 +35,14 @@ article{
     }
     .article_content{
       padding: 1.625vw 0;
+      @include grid-sm-down{
+       padding: 40px 0;
+      }
       > p{
         margin-bottom: 0.375vw;
+        @include grid-sm-down{
+          margin-bottom: 10px;
+        }
       }
       h4{
         font-weight: bold;
@@ -43,20 +55,36 @@ article{
   display: flex;
   width: 100%;
   margin-bottom: 2vw;
+  @include grid-sm-down{
+   flex-flow: column;
+  }
   .recent_article_img{
     width: 50%;
+    @include grid-sm-down{
+     width: 100%;
+     }
   }
   .recent_article_content{
     width: 50%;
     margin-left: 1vw;
+    @include grid-sm-down{
+      width: 100%;
+      padding: 40px 0;
+     }
     h4{
       font-weight: bold;
       font-size: 1.25vw;
       margin-bottom: 0.625vw;
+      @include grid-sm-down{
+       font-size: 20px;
+       }
     }
      p{
       font-size: 0.75vw;
       margin-bottom: 0.625vw;
+      @include grid-sm-down{
+        font-size: 14px;
+        }
      }
   }
 }
@@ -74,7 +102,6 @@ article{
 
 
 .section_news_letters{
-
   background-image: url('/assets/images/newsletter_bg.png');  
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,10 +109,19 @@ article{
   .form_group{
     display: flex;
     align-items: center;
+    @include grid-sm-down{
+      flex-flow: column;
+      align-items: start;
+    }
     width: 100%;
      .form_input{
       width: 70%;
-      margin-right: 6.25vw;
+      margin-right: 0.625vw;
+      @include grid-sm-down{
+       width: 100%;
+       margin-bottom: 10px;
+         
+         }
       input{
         width: 100%;
         padding: 1.1vw 0.625vw;
@@ -94,6 +130,11 @@ article{
         background-color: transparent;
         color: #F2F4F5;
         font-weight: 100;
+        @include grid-sm-down{
+            padding: 20px 10px;
+            font-size: 15px;
+              border: 0.063vw solid #fff;
+            }
         &:focus{
           outline: none;
           box-shadow: none;
@@ -105,6 +146,12 @@ article{
      }
      .form_btn{
         width: 30%;
+        .btn_brand_outline_white{
+          border-radius: 0.5vw;
+          @include grid-sm-down{
+         padding: 10px 30px;
+          }
+        }
      }
   }
 
@@ -125,10 +172,19 @@ article{
   .form_group{
     display: flex;
     align-items: center;
+    @include grid-sm-down{
+      flex-flow: column;
+      align-items: start;
+    }
     width: 100%;
      .form_input{
       width: 70%;
       margin-right: 0.625vw;
+      @include grid-sm-down{
+       width: 100%;
+       margin-bottom: 10px;
+         
+         }
       input{
         width: 100%;
         padding: 1.1vw 0.625vw;
@@ -137,6 +193,11 @@ article{
         background-color: transparent;
         color: #F2F4F5;
         font-weight: 100;
+        @include grid-sm-down{
+            padding: 20px 10px;
+            font-size: 15px;
+              border: 0.063vw solid #fff;
+            }
         &:focus{
           outline: none;
           box-shadow: none;
@@ -150,8 +211,17 @@ article{
         width: 30%;
         .btn_brand_outline_white{
           border-radius: 0.5vw;
+          @include grid-sm-down{
+         padding: 10px 30px;
+          }
         }
      }
   }
 
+}
+
+.revers{
+  @include grid-sm-down{
+   flex-direction: column-reverse;
+     }
 }

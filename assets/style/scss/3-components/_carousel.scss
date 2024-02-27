@@ -38,10 +38,25 @@
         border-radius: 3px;
         text-align: center;
     }
+<<<<<<< HEAD
 
     iframe {
         
     }
+=======
+    .item {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+>>>>>>> 25a9973b31d85e4b77a432ca4a1a3bc23b3563ac
 }
 
 .owl-carousel {

@@ -37,6 +37,9 @@
             text-align: center;
             color: white;
             font-size: 0.8999999999999999vw;
+            @include grid-sm-down{
+                font-size: 15px;
+                 }
             &.is_checked{
                 background-color: $scab-red;
             }
@@ -56,6 +59,10 @@
                     text-align: center;
                     color: white;
                     font-size: 0.8999999999999999vw;
+                    @include grid-sm-down{
+                       padding: 12px 0;
+                       font-size: 15px;
+                         }
                     &.is_checked{
                         background-color: $scab-red;
                     }
